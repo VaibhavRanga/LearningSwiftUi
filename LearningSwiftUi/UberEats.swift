@@ -11,14 +11,11 @@ struct UberEats: View {
     var body: some View {
         
         let foodImages: [String] = [
-            "food-image",
-            "food-image1",
-            "food-image",
-            "food-image1",
-            "food-image",
-            "food-image1",
-            "food-image",
-            "food-image1"
+            "japanese-tapas",
+            "burger",
+            "pizza",
+            "sushi",
+            "steak"
         ]
         
         VStack {
@@ -28,12 +25,12 @@ struct UberEats: View {
             
             ScrollView(showsIndicators: false) {
                
-                VStack() {
+                VStack(spacing: 24) {
                     ForEach(foodImages, id: \.self) { foodImage in
                         VStack(alignment: .leading) {
                             Image(foodImage)
                                 .resizable()
-                                .frame(width: 350, height: 170)
+                                .frame(width: 350, height: 150)
                                 .cornerRadius(10)
                             Text("Dish name")
                             HStack {
@@ -45,14 +42,10 @@ struct UberEats: View {
                                     .foregroundStyle(.gray)
                             }
                         }
-                        .padding(.bottom)
                     }
                 }
             }
-            
-            Spacer()
         }
-        .padding()
     }
 }
 
