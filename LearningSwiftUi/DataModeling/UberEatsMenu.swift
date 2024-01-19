@@ -10,11 +10,11 @@ import SwiftUI
 struct UberEatsMenu: View {
     
     let menuItems: [MenuItem] = [
-        .init(imageName: "steak", type: "American", restaurantName: "Ruth's Chris"),
-        .init(imageName: "pizza", type: "Italian", restaurantName: "Domino's"),
-        .init(imageName: "japanese-tapas", type: "Japanese", restaurantName: "Shoto"),
-        .init(imageName: "burger", type: "American", restaurantName: "Shake Shack"),
-        .init(imageName: "sushi", type: "Japanese", restaurantName: "Nobu")
+        MenuItem(imageName: "steak", type: "American", restaurantName: "Ruth's Chris"),
+        MenuItem(imageName: "pizza", type: "Italian", restaurantName: "Domino's"),
+        MenuItem(imageName: "japanese-tapas", type: "Japanese", restaurantName: "Shoto"),
+        MenuItem(imageName: "burger", type: "American", restaurantName: "Shake Shack"),
+        MenuItem(imageName: "sushi", type: "Japanese", restaurantName: "Nobu")
     ]
     
     var body: some View {

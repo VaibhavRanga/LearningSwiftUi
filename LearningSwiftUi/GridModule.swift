@@ -17,7 +17,7 @@ struct GridModule: View {
             .init(.flexible())
         ]
         
-        let dimension = UIScreen.main.bounds.width / 3 - 4
+        let dimension = UIScreen.main.bounds.width / 3 - 8
         
         let images: [String] = [
             "2",

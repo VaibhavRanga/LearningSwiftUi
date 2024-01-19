@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct MenuItem: Identifiable {
-    var id = NSUUID().uuidString
+struct MenuItem {
+    let id = NSUUID().uuidString
     
     let imageName: String
     let type: String

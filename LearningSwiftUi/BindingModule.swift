@@ -26,9 +26,7 @@ struct BindingModule: View {
     }
 }
 
-#Preview {
-    BindingModule()
-}
+
 
 struct SettingsRowView: View {
     
@@ -45,7 +43,8 @@ struct SettingsRowView: View {
                     .frame(width: 30, height: 30)
                     .foregroundStyle(.blue)
                 Text(title)
-                    .font(.title3)
+                    .font(.headline)
+                    .fontWeight(.regular)
             }
         }
         .padding(.horizontal)
@@ -54,4 +53,8 @@ struct SettingsRowView: View {
         .cornerRadius(10)
         .padding(.horizontal, 8)
     }
+}
+
+#Preview {
+    BindingModule()
 }

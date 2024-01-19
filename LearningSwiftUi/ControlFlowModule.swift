@@ -16,7 +16,7 @@ struct ControlFlowModule: View {
         
         Button {
             isLiked.toggle()
-            isLiked ? (likes += 1) : (likes -= 1)   //ternary operator
+            isLiked ? (likes += 1) : (likes -= 1)   //ternary expression
         } label: {
 //            if isLiked {
                 Image(systemName: isLiked ? "heart.fill" : "heart")

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListModule: View {
    
-    @State var images: [String] = [
+    @State var items: [String] = [
         "2",
         "3",
         "4",
@@ -31,11 +31,11 @@ struct ListModule: View {
     var body: some View {
         List {
             Section("First Section") {
-                ForEach(images, id: \.self) { image in
-                    Text("Item \(image)")
+                ForEach(items, id: \.self) { item in
+                    Text("Item \(item)")
                 }
                 .onDelete { indexSet in
-                    images.remove(atOffsets: indexSet)
+                    items.remove(atOffsets: indexSet)
                 }
             }
             Section("Second Section") {
