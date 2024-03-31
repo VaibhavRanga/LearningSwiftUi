@@ -40,6 +40,30 @@ struct ButtonsModule: View {
                     .foregroundStyle(.red)
             }
             .padding()
+            
+            Button("Button 1") {}
+                .buttonStyle(.bordered)
+            
+            Button("Button 2", role: .destructive) {}
+                .buttonStyle(.bordered)
+            
+            Button("Button 3") {}
+                .buttonStyle(.borderedProminent)
+            
+            Button("Button 4", role: .destructive) {}
+                .buttonStyle(.borderedProminent)
+            
+            Button("Edit", systemImage: "pencil") {}
+            
+            Button {
+                
+            } label: {
+                Label("Edit 1", systemImage: "pencil.circle")
+                    .padding()
+                    .foregroundStyle(.white)
+                    .background(.red)
+                    .clipShape(.rect(cornerRadius: 10))
+            }
         }
     }
 }

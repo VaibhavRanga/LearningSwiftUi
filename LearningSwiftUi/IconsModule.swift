@@ -9,7 +9,16 @@ import SwiftUI
 
 struct IconsModule: View {
     var body: some View {
-        Text("Hello world!!")
+        Image(systemName: "person.fill.badge.plus")
+//            .renderingMode(.original)
+            .symbolRenderingMode(.multicolor)
+//            .resizable()
+//            .aspectRatio(contentMode: .fit)
+//            .scaledToFit()
+            .font(.largeTitle)
+//            .font(.system(size: 200))
+//            .foregroundStyle(.red)
+//            .frame(width: 300, height: 300)
     }
 }
 

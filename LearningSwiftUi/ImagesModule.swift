@@ -19,7 +19,7 @@ struct ImagesModule: View {
         Image("person_image")
             .resizable()
             .frame(width: 80, height: 80)
-            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+            .clipShape(Circle())
             .border(.blue, width: 5)
     }
 }
