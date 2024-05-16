@@ -45,6 +45,11 @@ struct ListModule: View {
             }
         }
         .listStyle(SidebarListStyle())
+        
+        
+        List(drivers, id: \.self) {
+            Text($0)
+        }
     }
 }
 

@@ -9,7 +9,8 @@ import SwiftUI
 
 struct PickerModule: View {
     let names = ["Vaibhav", "Karuna", "Dinesh"]
-    @State private var selectedName = ""
+    @State private var selectedName = "Vaibhav"
+    @State private var date = Date.now
     
     var body: some View {
         Form {
@@ -20,6 +21,9 @@ struct PickerModule: View {
             }
             
             Text("Name selected: \(selectedName)")
+            
+            DatePicker("Please enter a date", selection: $date, in: Date.now..., displayedComponents: .hourAndMinute)
+                .labelsHidden()
         }
     }
 }

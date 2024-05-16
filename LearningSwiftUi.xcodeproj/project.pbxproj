@@ -28,6 +28,9 @@
 		B160CD8D2B59A2BA004AF33F /* ButtonsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160CD8C2B59A2BA004AF33F /* ButtonsModule.swift */; };
 		B160CD8F2B59A2CF004AF33F /* ControlFlowModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160CD8E2B59A2CF004AF33F /* ControlFlowModule.swift */; };
 		B171F1E52BA62607004B0974 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171F1E42BA62607004B0974 /* Practice.swift */; };
+		B1770CBC2BBA8DB9006FFB5C /* CustomModifiersModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1770CBB2BBA8DB9006FFB5C /* CustomModifiersModule.swift */; };
+		B1770CBE2BBA9258006FFB5C /* CustomViewsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */; };
+		B17A17B82BC940F20049FF5A /* StepperModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A17B72BC940F20049FF5A /* StepperModule.swift */; };
 		B18D24542BB4436900BF4381 /* AlertModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D24532BB4436900BF4381 /* AlertModule.swift */; };
 		B1A27D862B599F0C00251C29 /* LearningSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */; };
 		B1A27D882B599F0C00251C29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A27D872B599F0C00251C29 /* ContentView.swift */; };
@@ -60,6 +63,9 @@
 		B160CD8C2B59A2BA004AF33F /* ButtonsModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsModule.swift; sourceTree = "<group>"; };
 		B160CD8E2B59A2CF004AF33F /* ControlFlowModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlowModule.swift; sourceTree = "<group>"; };
 		B171F1E42BA62607004B0974 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		B1770CBB2BBA8DB9006FFB5C /* CustomModifiersModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiersModule.swift; sourceTree = "<group>"; };
+		B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsModule.swift; sourceTree = "<group>"; };
+		B17A17B72BC940F20049FF5A /* StepperModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperModule.swift; sourceTree = "<group>"; };
 		B18D24532BB4436900BF4381 /* AlertModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModule.swift; sourceTree = "<group>"; };
 		B1A27D822B599F0C00251C29 /* LearningSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUiApp.swift; sourceTree = "<group>"; };
@@ -141,6 +147,9 @@
 				B15F5BED2B80E20700150CCB /* BackgroundAndOverlayModule.swift */,
 				B1E2D25F2BAC5B3B003A398A /* PickerModule.swift */,
 				B18D24532BB4436900BF4381 /* AlertModule.swift */,
+				B1770CBB2BBA8DB9006FFB5C /* CustomModifiersModule.swift */,
+				B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */,
+				B17A17B72BC940F20049FF5A /* StepperModule.swift */,
 				B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */,
 				B1A27D872B599F0C00251C29 /* ContentView.swift */,
 				B1A27D892B599F0D00251C29 /* Assets.xcassets */,
@@ -235,6 +244,7 @@
 				B160CD7B2B59A1DC004AF33F /* ShapesModule.swift in Sources */,
 				B160CD8B2B59A2A2004AF33F /* ListModule.swift in Sources */,
 				B11875E02B5A75B000A35F46 /* TextFieldModule.swift in Sources */,
+				B17A17B82BC940F20049FF5A /* StepperModule.swift in Sources */,
 				B160CD852B59A263004AF33F /* ScrollViewModule.swift in Sources */,
 				B10269F52B5A5FF80044837B /* MenuItemView.swift in Sources */,
 				B18D24542BB4436900BF4381 /* AlertModule.swift in Sources */,
@@ -246,8 +256,10 @@
 				B1EBB8582B7FAB76001A9EAA /* GradientsModule.swift in Sources */,
 				B160CD8D2B59A2BA004AF33F /* ButtonsModule.swift in Sources */,
 				B1A27D862B599F0C00251C29 /* LearningSwiftUiApp.swift in Sources */,
+				B1770CBE2BBA9258006FFB5C /* CustomViewsModule.swift in Sources */,
 				B160CD832B59A250004AF33F /* LoopsModule.swift in Sources */,
 				B171F1E52BA62607004B0974 /* Practice.swift in Sources */,
+				B1770CBC2BBA8DB9006FFB5C /* CustomModifiersModule.swift in Sources */,
 				B160CD772B59A134004AF33F /* ImagesModule.swift in Sources */,
 				B10269F82B5A61260044837B /* MenuItem.swift in Sources */,
 				B1EBB85A2B7FB288001A9EAA /* IconsModule.swift in Sources */,
