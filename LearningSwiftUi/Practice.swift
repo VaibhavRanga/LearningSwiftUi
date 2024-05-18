@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Practice: View {
     var body: some View {
-        VStack{
+        VStack {
             Text("Hello world!")
         }
     }
