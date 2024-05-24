@@ -13,6 +13,7 @@
 		B11875E02B5A75B000A35F46 /* TextFieldModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11875DF2B5A75B000A35F46 /* TextFieldModule.swift */; };
 		B11875E22B5A844500A35F46 /* BindingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11875E12B5A844500A35F46 /* BindingModule.swift */; };
 		B11E756E2B7F85180054DFBC /* ColorsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E756D2B7F85180054DFBC /* ColorsModule.swift */; };
+		B12A89322C00B67100786885 /* NavigationLinkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A89312C00B67100786885 /* NavigationLinkModule.swift */; };
 		B159505E2BFC2FC8004774F2 /* SheetModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159505D2BFC2FC7004774F2 /* SheetModule.swift */; };
 		B15F5BEE2B80E20700150CCB /* BackgroundAndOverlayModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F5BED2B80E20700150CCB /* BackgroundAndOverlayModule.swift */; };
 		B160CD772B59A134004AF33F /* ImagesModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160CD762B59A134004AF33F /* ImagesModule.swift */; };
@@ -51,6 +52,7 @@
 		B11875DF2B5A75B000A35F46 /* TextFieldModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModule.swift; sourceTree = "<group>"; };
 		B11875E12B5A844500A35F46 /* BindingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingModule.swift; sourceTree = "<group>"; };
 		B11E756D2B7F85180054DFBC /* ColorsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsModule.swift; sourceTree = "<group>"; };
+		B12A89312C00B67100786885 /* NavigationLinkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkModule.swift; sourceTree = "<group>"; };
 		B159505D2BFC2FC7004774F2 /* SheetModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetModule.swift; sourceTree = "<group>"; };
 		B15F5BED2B80E20700150CCB /* BackgroundAndOverlayModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayModule.swift; sourceTree = "<group>"; };
 		B160CD762B59A134004AF33F /* ImagesModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesModule.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				B17F81532BF61A6200F12ACC /* AnimationsModule.swift */,
 				B159505D2BFC2FC7004774F2 /* SheetModule.swift */,
 				B1C4F2E32BFC8D1D009B9099 /* UserDefaultsModule.swift */,
+				B12A89312C00B67100786885 /* NavigationLinkModule.swift */,
 				B171F1E42BA62607004B0974 /* Practice.swift */,
 				B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */,
 				B1A27D872B599F0C00251C29 /* ContentView.swift */,
@@ -277,6 +280,7 @@
 				B1EBB85A2B7FB288001A9EAA /* IconsModule.swift in Sources */,
 				B160CD892B59A28F004AF33F /* GridModule.swift in Sources */,
 				B160CD8F2B59A2CF004AF33F /* ControlFlowModule.swift in Sources */,
+				B12A89322C00B67100786885 /* NavigationLinkModule.swift in Sources */,
 				B11E756E2B7F85180054DFBC /* ColorsModule.swift in Sources */,
 				B1E2D2602BAC5B3B003A398A /* PickerModule.swift in Sources */,
 			);

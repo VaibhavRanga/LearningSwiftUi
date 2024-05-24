@@ -57,6 +57,14 @@ struct StacksModule: View {
             }
             .padding(.horizontal)
         }
+        
+        ScrollView(.vertical) {
+            LazyVStack {
+                ForEach(0..<100) {
+                    Text("Row number: \($0)")
+                }
+            }
+        }
     }
 }
 
