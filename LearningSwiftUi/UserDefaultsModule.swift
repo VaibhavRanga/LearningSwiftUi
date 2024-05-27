@@ -38,19 +38,22 @@ struct User: Codable {
 struct UserDefaultsModule: View {
     @State private var user = User(firstName: "Taylor", lastName: "Swift")
     
+    init() {
+        if let storedData = UserDefaults.standard.data(forKey: "UserData") {
+            if let decodedData = try? JSONDecoder().decode(User.self, from: storedData) {
+                // assign the decoded data to a variable and return
+                user = decodedData
+                return
+            }
+        }
+        user = User(firstName: "", lastName: "")
+    }
+    
     var body: some View {
         Button("Save Data") {
             let encoder = JSONEncoder()
             if let data = try? encoder.encode(user) {
                 UserDefaults.standard.set(data, forKey: "UserData")
-            }
-        }
-    }
-    
-    func DecodeData() {
-        if let storedData = UserDefaults.standard.data(forKey: "UserData") {
-            if let decodedData = try? JSONDecoder().decode(User.self, from: storedData) {
-                // assign the decoded data to a variable and return
             }
         }
     }

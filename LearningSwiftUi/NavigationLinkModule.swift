@@ -26,12 +26,14 @@ struct NavigationLinkModule: View {
                     }
                 }
                 
-                List(0..<50) { row in
-                    NavigationLink("Row \(row)") {
-                        Text("Detail of row \(row)")
+                List {
+                    ForEach(0..<50) { row in
+                        NavigationLink("Row \(row)") {
+                            Text("Detail of row \(row)")
+                        }
                     }
                 }
-                
+
             }
             .navigationTitle("SwiftUi")
         }
