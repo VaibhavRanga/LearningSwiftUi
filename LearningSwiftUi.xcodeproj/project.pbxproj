@@ -13,7 +13,6 @@
 		B11875E02B5A75B000A35F46 /* TextFieldModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11875DF2B5A75B000A35F46 /* TextFieldModule.swift */; };
 		B11875E22B5A844500A35F46 /* BindingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11875E12B5A844500A35F46 /* BindingModule.swift */; };
 		B11E756E2B7F85180054DFBC /* ColorsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11E756D2B7F85180054DFBC /* ColorsModule.swift */; };
-		B12A89322C00B67100786885 /* NavigationLinkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A89312C00B67100786885 /* NavigationLinkModule.swift */; };
 		B159505E2BFC2FC8004774F2 /* SheetModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B159505D2BFC2FC7004774F2 /* SheetModule.swift */; };
 		B15F5BEE2B80E20700150CCB /* BackgroundAndOverlayModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F5BED2B80E20700150CCB /* BackgroundAndOverlayModule.swift */; };
 		B160CD772B59A134004AF33F /* ImagesModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160CD762B59A134004AF33F /* ImagesModule.swift */; };
@@ -29,6 +28,7 @@
 		B160CD8B2B59A2A2004AF33F /* ListModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160CD8A2B59A2A2004AF33F /* ListModule.swift */; };
 		B160CD8D2B59A2BA004AF33F /* ButtonsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160CD8C2B59A2BA004AF33F /* ButtonsModule.swift */; };
 		B160CD8F2B59A2CF004AF33F /* ControlFlowModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B160CD8E2B59A2CF004AF33F /* ControlFlowModule.swift */; };
+		B16F4AE32C07C4790082E3F2 /* NavigationBarAndToolbarModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F4AE22C07C4790082E3F2 /* NavigationBarAndToolbarModule.swift */; };
 		B171F1E52BA62607004B0974 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B171F1E42BA62607004B0974 /* Practice.swift */; };
 		B1770CBC2BBA8DB9006FFB5C /* CustomModifiersModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1770CBB2BBA8DB9006FFB5C /* CustomModifiersModule.swift */; };
 		B1770CBE2BBA9258006FFB5C /* CustomViewsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */; };
@@ -43,6 +43,7 @@
 		B1E2D2602BAC5B3B003A398A /* PickerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2D25F2BAC5B3B003A398A /* PickerModule.swift */; };
 		B1EBB8582B7FAB76001A9EAA /* GradientsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBB8572B7FAB76001A9EAA /* GradientsModule.swift */; };
 		B1EBB85A2B7FB288001A9EAA /* IconsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBB8592B7FB288001A9EAA /* IconsModule.swift */; };
+		B1F39C9C2C06D11F009EC730 /* NavigationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F39C9B2C06D11F009EC730 /* NavigationModule.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +53,6 @@
 		B11875DF2B5A75B000A35F46 /* TextFieldModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModule.swift; sourceTree = "<group>"; };
 		B11875E12B5A844500A35F46 /* BindingModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingModule.swift; sourceTree = "<group>"; };
 		B11E756D2B7F85180054DFBC /* ColorsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsModule.swift; sourceTree = "<group>"; };
-		B12A89312C00B67100786885 /* NavigationLinkModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkModule.swift; sourceTree = "<group>"; };
 		B159505D2BFC2FC7004774F2 /* SheetModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetModule.swift; sourceTree = "<group>"; };
 		B15F5BED2B80E20700150CCB /* BackgroundAndOverlayModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayModule.swift; sourceTree = "<group>"; };
 		B160CD762B59A134004AF33F /* ImagesModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesModule.swift; sourceTree = "<group>"; };
@@ -68,6 +68,7 @@
 		B160CD8A2B59A2A2004AF33F /* ListModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModule.swift; sourceTree = "<group>"; };
 		B160CD8C2B59A2BA004AF33F /* ButtonsModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsModule.swift; sourceTree = "<group>"; };
 		B160CD8E2B59A2CF004AF33F /* ControlFlowModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlowModule.swift; sourceTree = "<group>"; };
+		B16F4AE22C07C4790082E3F2 /* NavigationBarAndToolbarModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarAndToolbarModule.swift; sourceTree = "<group>"; };
 		B171F1E42BA62607004B0974 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 		B1770CBB2BBA8DB9006FFB5C /* CustomModifiersModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiersModule.swift; sourceTree = "<group>"; };
 		B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsModule.swift; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		B1E2D25F2BAC5B3B003A398A /* PickerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerModule.swift; sourceTree = "<group>"; };
 		B1EBB8572B7FAB76001A9EAA /* GradientsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsModule.swift; sourceTree = "<group>"; };
 		B1EBB8592B7FB288001A9EAA /* IconsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsModule.swift; sourceTree = "<group>"; };
+		B1F39C9B2C06D11F009EC730 /* NavigationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				B10269F32B5A5B770044837B /* DataModeling */,
 				B18D24532BB4436900BF4381 /* AlertModule.swift */,
 				B17F81532BF61A6200F12ACC /* AnimationsModule.swift */,
+				B1F39C9B2C06D11F009EC730 /* NavigationModule.swift */,
 				B15F5BED2B80E20700150CCB /* BackgroundAndOverlayModule.swift */,
 				B11875E12B5A844500A35F46 /* BindingModule.swift */,
 				B160CD8C2B59A2BA004AF33F /* ButtonsModule.swift */,
@@ -151,10 +154,10 @@
 				B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */,
 				B160CD8A2B59A2A2004AF33F /* ListModule.swift */,
 				B160CD822B59A250004AF33F /* LoopsModule.swift */,
-				B12A89312C00B67100786885 /* NavigationLinkModule.swift */,
 				B160CD7E2B59A202004AF33F /* PaddingModule.swift */,
 				B1E2D25F2BAC5B3B003A398A /* PickerModule.swift */,
 				B171F1E42BA62607004B0974 /* Practice.swift */,
+				B16F4AE22C07C4790082E3F2 /* NavigationBarAndToolbarModule.swift */,
 				B160CD842B59A263004AF33F /* ScrollViewModule.swift */,
 				B160CD7A2B59A1DC004AF33F /* ShapesModule.swift */,
 				B159505D2BFC2FC7004774F2 /* SheetModule.swift */,
@@ -274,15 +277,16 @@
 				B1770CBE2BBA9258006FFB5C /* CustomViewsModule.swift in Sources */,
 				B160CD832B59A250004AF33F /* LoopsModule.swift in Sources */,
 				B171F1E52BA62607004B0974 /* Practice.swift in Sources */,
+				B1F39C9C2C06D11F009EC730 /* NavigationModule.swift in Sources */,
 				B1770CBC2BBA8DB9006FFB5C /* CustomModifiersModule.swift in Sources */,
 				B160CD772B59A134004AF33F /* ImagesModule.swift in Sources */,
 				B10269F82B5A61260044837B /* MenuItem.swift in Sources */,
 				B1EBB85A2B7FB288001A9EAA /* IconsModule.swift in Sources */,
 				B160CD892B59A28F004AF33F /* GridModule.swift in Sources */,
 				B160CD8F2B59A2CF004AF33F /* ControlFlowModule.swift in Sources */,
-				B12A89322C00B67100786885 /* NavigationLinkModule.swift in Sources */,
 				B11E756E2B7F85180054DFBC /* ColorsModule.swift in Sources */,
 				B1E2D2602BAC5B3B003A398A /* PickerModule.swift in Sources */,
+				B16F4AE32C07C4790082E3F2 /* NavigationBarAndToolbarModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
