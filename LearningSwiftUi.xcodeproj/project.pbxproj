@@ -39,6 +39,7 @@
 		B1A27D882B599F0C00251C29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A27D872B599F0C00251C29 /* ContentView.swift */; };
 		B1A27D8A2B599F0D00251C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A27D892B599F0D00251C29 /* Assets.xcassets */; };
 		B1A27D8D2B599F0D00251C29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A27D8C2B599F0D00251C29 /* Preview Assets.xcassets */; };
+		B1B4DB962C0A0646009348E0 /* AsyncImageModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B4DB952C0A0646009348E0 /* AsyncImageModule.swift */; };
 		B1C4F2E42BFC8D1D009B9099 /* UserDefaultsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C4F2E32BFC8D1D009B9099 /* UserDefaultsModule.swift */; };
 		B1E2D2602BAC5B3B003A398A /* PickerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E2D25F2BAC5B3B003A398A /* PickerModule.swift */; };
 		B1EBB8582B7FAB76001A9EAA /* GradientsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EBB8572B7FAB76001A9EAA /* GradientsModule.swift */; };
@@ -80,6 +81,7 @@
 		B1A27D872B599F0C00251C29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1A27D892B599F0D00251C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1A27D8C2B599F0D00251C29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1B4DB952C0A0646009348E0 /* AsyncImageModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageModule.swift; sourceTree = "<group>"; };
 		B1C4F2E32BFC8D1D009B9099 /* UserDefaultsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsModule.swift; sourceTree = "<group>"; };
 		B1E2D25F2BAC5B3B003A398A /* PickerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerModule.swift; sourceTree = "<group>"; };
 		B1EBB8572B7FAB76001A9EAA /* GradientsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsModule.swift; sourceTree = "<group>"; };
@@ -135,10 +137,10 @@
 		B1A27D842B599F0C00251C29 /* LearningSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
-				B10269F32B5A5B770044837B /* DataModeling */,
 				B18D24532BB4436900BF4381 /* AlertModule.swift */,
 				B17F81532BF61A6200F12ACC /* AnimationsModule.swift */,
-				B1F39C9B2C06D11F009EC730 /* NavigationModule.swift */,
+				B1A27D892B599F0D00251C29 /* Assets.xcassets */,
+				B1B4DB952C0A0646009348E0 /* AsyncImageModule.swift */,
 				B15F5BED2B80E20700150CCB /* BackgroundAndOverlayModule.swift */,
 				B11875E12B5A844500A35F46 /* BindingModule.swift */,
 				B160CD8C2B59A2BA004AF33F /* ButtonsModule.swift */,
@@ -147,6 +149,7 @@
 				B160CD8E2B59A2CF004AF33F /* ControlFlowModule.swift */,
 				B1770CBB2BBA8DB9006FFB5C /* CustomModifiersModule.swift */,
 				B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */,
+				B10269F32B5A5B770044837B /* DataModeling */,
 				B1EBB8572B7FAB76001A9EAA /* GradientsModule.swift */,
 				B160CD882B59A28F004AF33F /* GridModule.swift */,
 				B1EBB8592B7FB288001A9EAA /* IconsModule.swift */,
@@ -154,10 +157,12 @@
 				B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */,
 				B160CD8A2B59A2A2004AF33F /* ListModule.swift */,
 				B160CD822B59A250004AF33F /* LoopsModule.swift */,
+				B16F4AE22C07C4790082E3F2 /* NavigationBarAndToolbarModule.swift */,
+				B1F39C9B2C06D11F009EC730 /* NavigationModule.swift */,
 				B160CD7E2B59A202004AF33F /* PaddingModule.swift */,
 				B1E2D25F2BAC5B3B003A398A /* PickerModule.swift */,
 				B171F1E42BA62607004B0974 /* Practice.swift */,
-				B16F4AE22C07C4790082E3F2 /* NavigationBarAndToolbarModule.swift */,
+				B1A27D8B2B599F0D00251C29 /* Preview Content */,
 				B160CD842B59A263004AF33F /* ScrollViewModule.swift */,
 				B160CD7A2B59A1DC004AF33F /* ShapesModule.swift */,
 				B159505D2BFC2FC7004774F2 /* SheetModule.swift */,
@@ -168,8 +173,6 @@
 				B160CD7C2B59A1F2004AF33F /* TextModule.swift */,
 				B160CD862B59A27B004AF33F /* UberEats.swift */,
 				B1C4F2E32BFC8D1D009B9099 /* UserDefaultsModule.swift */,
-				B1A27D892B599F0D00251C29 /* Assets.xcassets */,
-				B1A27D8B2B599F0D00251C29 /* Preview Content */,
 			);
 			path = LearningSwiftUi;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				B160CD792B59A1C1004AF33F /* StacksModule.swift in Sources */,
 				B17F81542BF61A6200F12ACC /* AnimationsModule.swift in Sources */,
 				B160CD7F2B59A202004AF33F /* PaddingModule.swift in Sources */,
+				B1B4DB962C0A0646009348E0 /* AsyncImageModule.swift in Sources */,
 				B11875E22B5A844500A35F46 /* BindingModule.swift in Sources */,
 				B15F5BEE2B80E20700150CCB /* BackgroundAndOverlayModule.swift in Sources */,
 				B1A27D882B599F0C00251C29 /* ContentView.swift in Sources */,
