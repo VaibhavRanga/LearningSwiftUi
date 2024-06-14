@@ -9,11 +9,15 @@ import SwiftUI
 
 struct AlertModule: View {
     @State private var showAlert = false
+    @State private var showConfirmation = false
     
     var body: some View {
         VStack {
             Button("Display alert") {
                 showAlert = true
+            }
+            Button("Display confirmation dialog") {
+                showConfirmation = true
             }
         }
 //        .alert("Important message", isPresented: $showAlert) {
@@ -25,6 +29,11 @@ struct AlertModule: View {
             Button("Cancel", role: .cancel) {}
         } message: {
             Text("Please read this")
+        }
+        .confirmationDialog("Some confirmation", isPresented: $showConfirmation) {
+            Button("Confirm") {  }
+        } message: {
+            Text("This is a confirmation message")
         }
     }
 }

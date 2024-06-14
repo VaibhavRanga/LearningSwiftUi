@@ -19,9 +19,9 @@ struct BindingModule: View {
                 Text("Battery: 100%")
             }
             
-            SettingsRowView(imageName: "bell.circle.fill", title: "Notifications", isOn: $isOn)
+            SettingsRowView(imageName: "bell.circle.fill", title: "Notifications", isOnS: $isOn)
             
-            SettingsRowView(imageName: "battery.100percent.circle.fill", title: "ShowBattery", isOn: $showBattery)
+            SettingsRowView(imageName: "battery.100percent.circle.fill", title: "ShowBattery", isOnS: $showBattery)
         }
     }
 }
@@ -33,10 +33,10 @@ struct SettingsRowView: View {
     let imageName: String
     let title: String
     
-    @Binding var isOn: Bool
+    @Binding var isOnS: Bool
     
     var body: some View {
-        Toggle(isOn: $isOn) {
+        Toggle(isOn: $isOnS) {
             HStack {
                 Image(systemName: imageName)
                     .resizable()
