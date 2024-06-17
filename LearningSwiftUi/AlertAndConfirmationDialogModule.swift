@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AlertModule: View {
+struct AlertAndConfirmationDialogModule: View {
     @State private var showAlert = false
     @State private var showConfirmation = false
     
@@ -39,5 +39,5 @@ struct AlertModule: View {
 }
 
 #Preview {
-    AlertModule()
+    AlertAndConfirmationDialogModule()
 }

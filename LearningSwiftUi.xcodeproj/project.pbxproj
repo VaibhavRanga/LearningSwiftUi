@@ -36,7 +36,7 @@
 		B1770CBE2BBA9258006FFB5C /* CustomViewsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */; };
 		B17A17B82BC940F20049FF5A /* StepperModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A17B72BC940F20049FF5A /* StepperModule.swift */; };
 		B17F81542BF61A6200F12ACC /* AnimationsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F81532BF61A6200F12ACC /* AnimationsModule.swift */; };
-		B18D24542BB4436900BF4381 /* AlertModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D24532BB4436900BF4381 /* AlertModule.swift */; };
+		B18D24542BB4436900BF4381 /* AlertAndConfirmationDialogModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D24532BB4436900BF4381 /* AlertAndConfirmationDialogModule.swift */; };
 		B1A27D862B599F0C00251C29 /* LearningSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */; };
 		B1A27D882B599F0C00251C29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A27D872B599F0C00251C29 /* ContentView.swift */; };
 		B1A27D8A2B599F0D00251C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1A27D892B599F0D00251C29 /* Assets.xcassets */; };
@@ -81,7 +81,7 @@
 		B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsModule.swift; sourceTree = "<group>"; };
 		B17A17B72BC940F20049FF5A /* StepperModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperModule.swift; sourceTree = "<group>"; };
 		B17F81532BF61A6200F12ACC /* AnimationsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsModule.swift; sourceTree = "<group>"; };
-		B18D24532BB4436900BF4381 /* AlertModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModule.swift; sourceTree = "<group>"; };
+		B18D24532BB4436900BF4381 /* AlertAndConfirmationDialogModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndConfirmationDialogModule.swift; sourceTree = "<group>"; };
 		B1A27D822B599F0C00251C29 /* LearningSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUiApp.swift; sourceTree = "<group>"; };
 		B1A27D872B599F0C00251C29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		B1A27D842B599F0C00251C29 /* LearningSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
-				B18D24532BB4436900BF4381 /* AlertModule.swift */,
+				B18D24532BB4436900BF4381 /* AlertAndConfirmationDialogModule.swift */,
 				B17F81532BF61A6200F12ACC /* AnimationsModule.swift */,
 				B1A27D892B599F0D00251C29 /* Assets.xcassets */,
 				B1B4DB952C0A0646009348E0 /* AsyncImageModule.swift */,
@@ -278,7 +278,7 @@
 				B17A17B82BC940F20049FF5A /* StepperModule.swift in Sources */,
 				B160CD852B59A263004AF33F /* ScrollViewModule.swift in Sources */,
 				B10269F52B5A5FF80044837B /* MenuItemView.swift in Sources */,
-				B18D24542BB4436900BF4381 /* AlertModule.swift in Sources */,
+				B18D24542BB4436900BF4381 /* AlertAndConfirmationDialogModule.swift in Sources */,
 				B159505E2BFC2FC8004774F2 /* SheetAndReviewModule.swift in Sources */,
 				B1CF59DF2C1CA67300E424F4 /* GaugeSliderOnChangeModule.swift in Sources */,
 				B160CD792B59A1C1004AF33F /* StacksModule.swift in Sources */,
