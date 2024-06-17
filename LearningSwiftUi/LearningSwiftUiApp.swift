@@ -11,7 +11,7 @@ import SwiftUI
 struct LearningSwiftUiApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationBarAndToolbarModule()
+            ContentView()
         }
     }
 }

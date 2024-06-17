@@ -5,6 +5,7 @@
 //  Created by Vaibhav Ranga on 21/05/24.
 //
 
+import StoreKit
 import SwiftUI
 
 struct SecondView: View {
@@ -19,10 +20,18 @@ struct SecondView: View {
     }
 }
 
-struct SheetModule: View {
+struct SheetAndReviewModule: View {
+    
+    @Environment(\.requestReview) var requestReview
+    
     @State private var showingSheet = false
     
     var body: some View {
+        
+        Button("Leave a review on the app store") {
+            requestReview()
+        }
+        
         Button("Show Sheet") {
             showingSheet.toggle()
         }
@@ -33,5 +42,5 @@ struct SheetModule: View {
 }
 
 #Preview {
-    SheetModule()
+    SheetAndReviewModule()
 }
