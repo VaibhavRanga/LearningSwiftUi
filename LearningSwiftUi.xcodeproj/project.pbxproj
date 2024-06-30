@@ -38,6 +38,7 @@
 		B1770CBE2BBA9258006FFB5C /* CustomViewsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */; };
 		B17A17B82BC940F20049FF5A /* StepperModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17A17B72BC940F20049FF5A /* StepperModule.swift */; };
 		B17F81542BF61A6200F12ACC /* AnimationsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F81532BF61A6200F12ACC /* AnimationsModule.swift */; };
+		B18CBCD02C31B2C000C36572 /* CustomBindingsForProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CBCCF2C31B2C000C36572 /* CustomBindingsForProperties.swift */; };
 		B18D24542BB4436900BF4381 /* AlertAndConfirmationDialogModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D24532BB4436900BF4381 /* AlertAndConfirmationDialogModule.swift */; };
 		B1A27D862B599F0C00251C29 /* LearningSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */; };
 		B1A27D882B599F0C00251C29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A27D872B599F0C00251C29 /* ContentView.swift */; };
@@ -85,6 +86,7 @@
 		B1770CBD2BBA9258006FFB5C /* CustomViewsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewsModule.swift; sourceTree = "<group>"; };
 		B17A17B72BC940F20049FF5A /* StepperModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperModule.swift; sourceTree = "<group>"; };
 		B17F81532BF61A6200F12ACC /* AnimationsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsModule.swift; sourceTree = "<group>"; };
+		B18CBCCF2C31B2C000C36572 /* CustomBindingsForProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindingsForProperties.swift; sourceTree = "<group>"; };
 		B18D24532BB4436900BF4381 /* AlertAndConfirmationDialogModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndConfirmationDialogModule.swift; sourceTree = "<group>"; };
 		B1A27D822B599F0C00251C29 /* LearningSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A27D852B599F0C00251C29 /* LearningSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUiApp.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				B16ECAFF2C207473003B2605 /* PhotoPickerFromGalleryModule.swift */,
 				B1E2D25F2BAC5B3B003A398A /* PickerModule.swift */,
 				B171F1E42BA62607004B0974 /* Practice.swift */,
+				B18CBCCF2C31B2C000C36572 /* CustomBindingsForProperties.swift */,
 				B126C6E82C22D9760042ADFD /* DocumentsDirectoryModule.swift */,
 				B13690AF2C2541E7009FB422 /* BiometricAuthenticationModule.swift */,
 				B1A27D8B2B599F0D00251C29 /* Preview Content */,
@@ -291,6 +294,7 @@
 				B1CF59DF2C1CA67300E424F4 /* GaugeSliderOnChangeModule.swift in Sources */,
 				B160CD792B59A1C1004AF33F /* StacksModule.swift in Sources */,
 				B1FCD24F2C208B2300A1CB96 /* ShareLinkModule.swift in Sources */,
+				B18CBCD02C31B2C000C36572 /* CustomBindingsForProperties.swift in Sources */,
 				B17F81542BF61A6200F12ACC /* AnimationsModule.swift in Sources */,
 				B160CD7F2B59A202004AF33F /* PaddingModule.swift in Sources */,
 				B1B4DB962C0A0646009348E0 /* AsyncImageModule.swift in Sources */,
