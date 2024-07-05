@@ -17,8 +17,9 @@ struct ImagesModule: View {
         //            .scaledToFit()
         
         Image("person_image")
+            .interpolation(.none)
             .resizable()
-            .frame(width: 80, height: 80)
+            .frame(width: 400, height: 400)
             .clipShape(Circle())
             .border(.blue, width: 5)
         
